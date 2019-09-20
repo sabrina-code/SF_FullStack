@@ -1,0 +1,210 @@
+html, body{
+    height:100%;
+    background-image: url("../images/spiration dark.png");
+    background-repeat: repeat;
+    background-color: #edeef1;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    font-size: 13pt;
+}
+main{
+    width: 960px;
+    min-height: calc(100vh - 60px);
+    margin: 34px auto;
+}
+label{
+    line-height: 24pt;
+}
+input{
+    width: 100%;
+    padding-left: 15px;
+    font-size: 13pt;
+    line-height: 28pt;
+    color: #777;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    padding-left: 15px;
+    font-size: 13pt;
+    line-height: 30pt;
+    color:#777;
+    margin-bottom:15px;
+    border: 1px solid #d7d7d7;
+}
+::placeholder {
+    color: #dc4d4d4;
+}
+form.contact_form{
+    width: 100%;
+}
+.input_single{
+    margin-right:16px;
+}
+.btn_sml{
+    font-size: 18px;
+    line-height:30pt;
+    border-radius: 0;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 0 30px;
+}
+.btn_sml:hover,
+.btn_sml:active:hover{
+    background-color:#000;
+}
+.content{
+    background-color: #fff;
+    border: solid 1px #ddd;
+    padding: 40px 30px 100px;
+}
+p{
+    font-size: 13pt;
+    line-height: 30pt;
+    margin: 0 0 20pt;
+}
+h1, h2, h3, h4, h5,h6{  
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+}
+h1{
+    font-size: 22pt;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.flex-container {
+    list-style: none;   
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+.row            { 
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+}
+.row-reverse    { 
+    -webkit-flex-direction: row-reverse; 
+    flex-direction: row-reverse;
+} 
+.float-right{
+    float: right;
+}
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+input::-webkit-input-placeholder {
+    color:#c3c3c3; /* Stacking up will not work, specify in each line */
+}
+input::-moz-placeholder{
+    color:#c3c3c3;
+}
+input::-ms-placeholder{
+    color:#c3c3c3;
+}
+input::placeholder{
+    color:#c3c3c3;
+}
+.lt-grey{
+    color: #ccc;
+}
+/************* TOP NAVIGATION *************/
+nav{
+    background-color: white;
+    border-bottom: solid 2px #ddd;
+}
+.nav-top{
+    width: 960px;
+    margin: 0 auto;
+}
+.nav-top ul {
+    margin-top: 30px;
+}
+.nav-top ul li a {
+    padding: 30px 20px;
+    color: #777;
+}
+.nav-top ul li a:hover,
+.nav-top ul li a:active:hover {
+    color: #000;
+}
+.logo-top{
+    padding: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22pt;
+    display: inline-block;
+}
+.logo-top:hover,
+.logo-top:active:hover{
+    background-color: #000;
+}
+/************* FOOTER *************/
+footer{
+    height:60px;
+    background-color: #666;
+    color: #e2e2e2;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+footer > p {
+    font-size: 10pt;
+}
+/********** COMMON ****************/
+.page-title{
+    color: #4aaaa5;
+    border-bottom: solid 1px #ccc;
+    padding-bottom:30px;
+    margin-bottom: 15px;
+}
+
+/********** ABOUT ME ****************/
+.me{
+    float:left;
+    display: inline-block;
+    margin: 14px 26px 30px 0;
+}
+/********** PORTFOLIO ****************/
+.port-thumb{
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 30px 30px 30px 0;
+}
+
+.port-img{
+    float:left;
+}
+.port_tag{
+    padding: 25px 0;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 270px;
+    position: absolute;
+    top: 162px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.port_tag:hover,
+.port_tag:active{
+    background-color: #000;
+}
+
+
