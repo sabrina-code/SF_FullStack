@@ -1,7 +1,7 @@
 # Sabrina Fan Web Developer Portfolio Site
 
 ## Link
-[www.mywebsite.com](https://www.mywebsite.com)
+https://github.com/sabrina-code/SabrinaFan_FullStack.git
 
 ## Description
 
