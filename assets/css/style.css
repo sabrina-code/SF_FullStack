@@ -142,6 +142,9 @@ nav{
 .nav-top ul li a:active:hover {
     color: #000;
 }
+.nav-top ul li a.active {
+    color: #4aaaa5;
+}
 .logo-top{
     padding: 25px;
     background-color: #4aaaa5;
@@ -177,7 +180,7 @@ footer > p {
 .me{
     float:left;
     display: inline-block;
-    margin: 14px 26px 14px 0;
+    margin: 10px 26px 14px 0;
 }
 /********** PORTFOLIO ****************/
 .port-thumb{
