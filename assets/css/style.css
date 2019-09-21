@@ -49,6 +49,7 @@ form.contact_form{
     color: white;
     background-color: #4aaaa5;
     padding: 0 30px;
+    border: 0;
 }
 .btn_sml:hover,
 .btn_sml:active:hover{
