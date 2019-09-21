@@ -1,8 +1,5 @@
 # Sabrina Fan Web Developer Portfolio Site
 
-## Link
-https://github.com/sabrina-code/SabrinaFan_FullStack.git
-
 ## Description
 
 >A collection of my efforts in becoming a full-stack web developer.
@@ -21,4 +18,4 @@ on-going
 ### Author and License
 Sabrina Fan, 2019
 
-    Special thanks to Omar Patel, Julio Valdez, Peter Park, and the people at the UCLA Full-stack Web Development.
+    Special thanks to Professor Omar Patel, TA Julio Valdez, and Peter Park, and the people at the UCLA Full-stack Web Development.
