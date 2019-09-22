@@ -210,5 +210,7 @@ footer > p {
 .port_tag:active{
     background-color: #000;
 }
-
-
+/********** CONTACT ****************/
+.contact_form{
+    margin: right;
+}
