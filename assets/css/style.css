@@ -156,13 +156,16 @@ nav{
     background-color: #000;
 }
 /************* FOOTER *************/
-footer{
+  footer{
     height:60px;
     background-color: #666;
     color: #e2e2e2;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+    position: sticky; 
+    bottom: 0;
 }
+
 footer > p {
     font-size: 10pt;
 }
