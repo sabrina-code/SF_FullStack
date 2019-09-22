@@ -36,9 +36,6 @@ textarea{
 ::placeholder {
     color: #d4d4d4;
 }
-form.contact_form{
-    width: 100%;
-}
 .input_single{
     margin-right:16px;
 }
@@ -211,6 +208,6 @@ footer > p {
     background-color: #000;
 }
 /********** CONTACT ****************/
-.contact_form{
-    margin: right;
+form.contact_form {
+    margin-right: 20px;
 }
